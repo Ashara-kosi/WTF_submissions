@@ -89,7 +89,7 @@ print(checker([0,1,2,0]))
 # In[19]:
 
 
-#Write a function to print multiplication table from 1 to 10
+#6.Write a function to print multiplication table from 1 to 10
 def tables(stop_range):
     for num in range(1,stop_range):
         print("Multiplication Table for {}".format(num))
