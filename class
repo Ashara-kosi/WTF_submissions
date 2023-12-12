@@ -1,0 +1,238 @@
+# print("My name is Zarah")
+# print(34)
+# a = 35%5
+# b = 145%10
+# print(a)
+# print(b)
+# print("hello world")
+# print("how are you doing \'she asked")
+#name = input("what is your name?")
+#print(f'{name} went to the mosque')
+
+#print('{1} {2} {0}'.format ('Direction', 'Read', 'The'))
+
+#a = int(input('what is your first number'))
+#b = int(input('what is your first number'))
+#ans = a + b
+#print(f'{a} + {b} = {ans}')
+
+#a = int(input("What is your first number"))
+#b = int(input("What is your second number"))
+#c = a + b
+#print(f'{a} + {b} = {c}')
+
+#print("Hello World", "From Py", sep=",")
+#print("Hello World", end="")
+
+#list = [5,8,0,11,18,30,56,70,81,90]
+#list.pop(0)
+#print(list)
+
+
+
+#print("\ta\tb\tc")
+
+#print("\\\\")
+
+#print("'")
+
+#print("\"\"\"")
+
+#print("C:\nin\the downward spiral")
+
+#print(r"/ \ // \\ /// \\\ ")
+
+#print("/" "\\" "//" "\\\\" "///" "\\\\\\")
+
+#print("This quote is from Irish poet Oscar Wilde")
+#print("Irish poet Oscar Wilde:")
+#print('"Music makes one feel so romantic')
+#print("- at least it always gets on one's nerves -")
+#print('which is the same thing nowadays."')
+
+#print('A "quoted" String is')
+#print("'much' better if you learn'")
+#print('the rules of "escape sequences."')
+#print('Also, "" represents an empty String.')
+#print('Don''t forget: use \\" instead of " ! ')
+#print(' '' is not the same as "')
+
+#print(9 // 5)
+#print(695 % 20)
+#print(7 + 6 * 5)
+#print(7 * 6 + 5)
+#print(248 % 100 // 5)
+#print(6 * 3 - 9 // 4)
+#print((5 - 7) * 4)
+#print(6 + (18 % (17 - 12)))
+
+#x = (2 + 3) * 10 - 3
+#print(x)
+
+comment ='''dear john, i write to inform you of the ongoing compliance refresher in
+USA which i woul like you an your team to partarke in. Kindly send me a feedback when you get this
+
+yours faithfully,
+
+Zarah'''
+#print(comment)
+
+tuple1 =  [10,20,30,40,50,60,70,80,90,100]
+tuple2 = ['eye, ears ,nose']
+#print(tuple1 + tuple2)
+
+fruits = ('mangoes', 'oranges', 'bananas', 'apples', 'watermelon')
+(yellow,orange,green,red,peach) = fruits 
+#print(peach)
+#print(red)
+#print(orange)
+#print(yellow)
+#print(green)
+
+#a = 100
+#b = 100
+#if a > b:
+    #print('the first value is greater')
+#elif a ==b:
+    #print('the values are equal')
+#else:
+    #print('the second value is greater')
+
+# number = int(input('please put in the number'))
+# if number % 2 == 0:
+#     print('even number')
+# else:
+#     print('odd number')
+
+# character = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+# for string in character:
+#     print(string)
+
+# list = [2,3,4,5,6,7,8,9,0]
+# newlist = []
+# for item in iter(list):
+#     newvalue = item * 2
+#     newlist.append(newvalue)
+# print(newlist)
+
+# for i in range[30,2,-2]:
+#     print()
+
+#print('is not the same as "')
+
+#print(' ' ' is not the same as" ')
+
+
+# x = int(input('Enter First Number'))
+# y = int(input('Enter Second Number'))
+
+# print('which operation do you want to perform?')
+
+# operator = input('enter any of the operator for specific operation +, -, *, /,')
+
+# answer = 0
+# if operator == '+':
+#     answer = x + y
+# elif operator == '-':
+#     answer = x - y
+
+# elif operator == '*':
+#     answer = x * y
+
+# elif operator == '/':
+#     answer = x / y
+# else:
+#     print('N/A')
+
+# print(x, operator, y, ":", answer)
+
+# box = 0
+# while (box < 10):
+#     box = box + 1
+#     print(box)
+
+# guess = int(input('insert a number between 1-31'))
+# lucky_number = 7
+# game = False
+# while (guess <= 31 and game == False):
+#     if guess == lucky_number:
+#         print('Winner!')
+#         game = True
+#     else:
+#         print('sorry, try again!')
+#         guess = int(input('please insert a number between 1-31'))
+
+# fibo = [0,1]
+# while (len(fibo) < 10):
+#     sum = fibo [-1] + fibo [-2]
+#     fibo.append(sum)
+# print(fibo)
+
+
+# def laughter ():
+#     print('hahaha' *5)
+# laughter()
+
+# def amusement():
+#     print("screams in 'omashe o!'")
+# amusement()
+
+# fibo = [0,1]
+# def FibocciSeries(fibo):
+#     while (len(fibo) < 10):
+#         sum = fibo [-1] + fibo [-2]
+#         fibo.append(sum)
+#     return fibo
+# list = [5,6]
+# function = FibocciSeries(list)
+# print(function)
+
+# for row in range(0,1):
+#     for col in range(0,row+1):
+#         print('^', end="")
+#     print()
+
+
+# for num in range(1,13):
+#     print(f'multiplication table for {num}')
+#     for j in range(1,13):
+#         ans = num * j
+#         print(f'{num} * {j} = {ans}')
+#     print()
+
+
+# list = [2,4,5,6,7,8,9]
+# newlist = [j*3 for j in list]
+# print(newlist)
+
+# def divide (x,y):
+#     try:
+#         ans = x//y
+#         print(f"the error is {e} ")
+#         return ans
+#     except exception as e:
+#     print(divide(5,0))
+
+# for i in range (1,6):
+#     print("*" * 10)
+
+# for a in range(1,10):
+#     print(a)
+
+# for b in range (4,95,15):
+#     print(b)
+
+# for c in range (30,-30,-10):
+#     print(c)
+
+# for f in range (-7,17,4):
+#     print(f)
+
+# for e in range (97,79, -3):
+#     print(e)
+
+# for g in range (-4,104,18):
+#     print(g)
+
+for x in range (1,9):
+    print(str(x) * x)
