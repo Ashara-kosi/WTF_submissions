@@ -1,0 +1,20 @@
+#CALCULATOR PROGRAM
+# First_number = input("insert number")
+# Arithmetic_operator = input("Insert Arithmetic_operator(+, -, *, /) ")
+# Second_number = input("instert number")
+
+#add = int(First_number) + int(Second_number)
+# subtract = int(First_number)- int(Second_number) 
+# multiply =int(First_number)  * int(Second_number)
+# divide = int(First_number) / int(Second_number)
+
+# if Arithmetic_operator =="+":
+#     print(add)
+# elif Arithmetic_operator =="-":
+#     print(subtract)
+# elif Arithmetic_operator =="*":
+#     print(multiply)
+# elif Arithmetic_operator =="/":
+#     print(divide)
+# else:
+#     print("invalid Arithmetic_operator") 
