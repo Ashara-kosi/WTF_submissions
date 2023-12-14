@@ -1,0 +1,148 @@
+print('hi')
+#another python class
+ #python list
+ #here is the stuff we need
+ #tent,sleeping bags,water,raspberry pi,coffe,knife,flash drive,beard oil,mashmallows
+camping_stuff=["tent,sleeping bags,water,raspberry pi,coffe,knife,flashdrive,beard oil,mashmallows"]
+print(camping_stuff)
+#python test
+camping_list=["test", ]
+print(len(camping_stuff))
+#append is used to add string to list but just one string
+camping_stuff.append('semo')
+print(camping_stuff)
+#extend is used to add multiple string to list
+#camping_stuff.extend(['amala,rice,yam,beans'])
+#print(camping_stuff)
+#you can also insert the string
+camping_stuff.insert(3, 'garri')
+print(camping_stuff) 
+#assignment operator
+a,b=5,6
+print(a)
+x=4
+x*=2
+print(x)
+#relational operator
+a=5
+b=6
+print(a<b)
+print(a>b)
+#! means not equal to
+a!=b
+#logical operators
+#and,or,not
+#and
+a=5
+b=4
+print(a<8 and b<5)
+#it means both condition must be true
+#loop this is used to repeat statement in no of ways
+#there are two types.....while loop and for loop
+#while loop
+#assume you want to repeat a statement 5 times
+#i=5
+#while i>=1:
+   # print('hello', i)
+   # i=i-1
+#i=3
+#while i<=10:
+   # print('rocks' ,i)
+
+
+
+
+#for x in range(1,7):
+  #  print(x)
+#sign=['+----+']
+#for x in sign:
+  #  print(x)
+ #   i=5
+#while i>=1
+#         print('**********')
+     #    i=i-1
+         
+         
+         
+         
+    #kosis exercise 5(3) question    
+#import random
+#lower_numb=1
+#upper_numb=100
+#number_guesses=0
+#random_number=random.randint(lower_numb,upper_numb)
+#guess=int(input("enter a number"))
+#if guess<lower_numb or guess>upper_numb:
+  # raise ValueError('please enter the value within the range')
+#elif guess==random_number:
+ #  print('you guessed the number correctly')
+#elif guess<random_number:
+  # print('the number is lower!')
+#else:
+ #  print('the number is higher!')
+    
+    #kosis exercise5(4)question
+#def hailstone(numb):
+#       hailstone_list=[numb]
+ #       while numb!=1:
+ #          if (numb%2)==0:
+ #              numb=numb/2
+ #              hailstone_list.append(int(numb))
+   #        else:
+  #             numb=(numb*3)+1
+ #              hailstone_list.append(int(numb))
+ #       return hailstone_list
+#print(hailstone(5))
+
+
+#int_list=[2,4,7,4,23,5,1,4,8,9]
+#print (max(int_list))
+
+
+#numb_list=[4,7,1,5,11,53,12,46,84,23]
+#average=sum(numb_list)/len(numb_list)
+#print(average,round(average,2))
+
+
+#my_numb=[1,2,3,4,5]
+#my_numb.reverse()
+#print(my_numb)
+#For  loop
+#numb=[1,10]
+#for i in range(1,10):
+ #    print(i)
+
+# For Loop
+#name=['semo','amala','rice','yam']
+#for i in list(name):
+ #   print(i)
+
+#while loop
+#for i in range(10):
+ #   print('**********')
+#name=('+----+')
+#for i in name:
+ #   print(i)
+#for i in range(8):
+#      print('\   /')
+ #     print('+----+')
+ 
+#for i in range(1,7):
+ #   print(i,end=' ')
+    
+#for i in [2,4,6,8,10,12]:
+ #   print(i, end=" ")
+ 
+
+#for i in range(1,8):    
+ #  for j in range(i):
+  #   print(i,end=' ') 
+#print('')
+
+#list=[0,1,2,3,4,5,6,7,8,9]
+#print(list[::-2])
+
+list=[[]]*3
+list[1].append(2)
+print(list) 
+
