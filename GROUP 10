@@ -1,0 +1,22 @@
+#for num in range(1,7):
+    #column2 = num * 2
+   # column3 = 
+
+
+#list1 = [2, 6, 7, 45, 23, 53, 14, 45, 89, 5]
+#list1.reverse()
+#print(list1)
+
+first_list = [int(x) for x in input('first list of integers separated by spaces:').split()]
+second_list = [int(x) for x in input('first list of integers separated by spaces:').split()]
+def compare(first_list,second_list):
+    if len(first_list) != len(second_list):
+        return False
+    for i in range (len(first_list)):
+        if first_list[i] == second_list[i]:
+            return True
+    else:
+        return True
+result = compare(first_list,second_list)
+print('your result is',result)
+                                
