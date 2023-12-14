@@ -1,0 +1,33 @@
+#a = 8
+#b = 2
+#print(a/b)
+#def is_pronic(num):
+ #   pronic = False
+  #  for i in range(1,1000):
+   #     if i*(i+1) ==num:
+    #        pronic = True
+     #       print(f"the {num} number is divisible by {i} and {i+1}")
+      #      break
+    #return pronic,i,i+1
+#num = int(input('put in a number'))
+#print(is_pronic(num))
+
+#for row in range(0,6):
+   # for col in range(0, row+1):
+  #      print('*',end=" ")
+ #   print()
+
+#for num in range(2,10):
+ #   print(f'multiplication table for {num}')
+ #   for j in range(1,10):
+ #       ans = num * j
+  #      print(f'{num} * {j} = {ans}')
+  #  print()
+
+friuts = ['bannana', 'apple', 'orange','lime']
+x = []
+for fruit in friuts:
+    if 'a' in fruit:
+        x.append(fruit)
+print(x)    
+        
