@@ -1,0 +1,34 @@
+#question 13
+s1 = "concord"
+s2 = "souix city"
+s3 = "HONOLULU"
+s4 = "TopHat"
+
+# Capitalize returns a copy of your srtring such that only the first letter is changed into UPPERCASE
+print(s1.capitalize())
+
+#swapcase  is used to convert UPPERCASE characters  of a string into lower case and vice versa
+print(s2.swapcase())
+
+#upper string method is used  when you want all the characters in your string to be changed into UPPERCASE
+print(s4.upper()) 
+print(s3.lower())
+
+print(s4.title())
+
+#Question 14
+s= "cat"
+print(s.lower().upper())
+#QUESTION 15
+s= "Topkapi"
+s.rjust(20,".")
+s.ljust(15)
+print(s.ljust(15))
+print(s.ljust(15,"."))
+
+print(s.rjust(15))
+print(s.rjust(20,"."))
+
+print(s.rjust(6))
+
+
